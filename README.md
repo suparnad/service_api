@@ -4,13 +4,13 @@ Provides a RESTful API endpoint `/services` that returns a list of services in J
 
 ---
 
-## 📌 Description
+## Description
 
 This Drupal 11 custom module demonstrates a clean, testable Web API using modern design patterns like the Repository Pattern and Dependency Injection. It's ideal for interview showcases and API architecture demonstrations.
 
 ---
 
-## 📂 Features
+## Features
 
 - `/services`: Returns all services.
 - `/services?serviceCode=FLY_TIPPING`: Returns a single service.
@@ -20,7 +20,7 @@ This Drupal 11 custom module demonstrates a clean, testable Web API using modern
 
 ---
 
-## 🧱 Architecture & Best Practices
+## Architecture & Best Practices
 
 - **Repository Pattern**: Decouples data access logic from business logic.
 - **Dependency Injection**: Controller depends on an interface, not a concrete class.
@@ -31,7 +31,7 @@ This Drupal 11 custom module demonstrates a clean, testable Web API using modern
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Enable the module
 
