@@ -1,0 +1,13 @@
+services:
+  services_api.service_repository:
+    class: Drupal\services_api\Service\ServiceRepository
+    arguments: []
+
+  Drupal\services_api\Service\ServiceRepositoryInterface:
+    alias: services_api.service_repository
+
+  services_api.controller.services:
+    class: Drupal\services_api\Controller\ServicesApiController
+    arguments: ['@Drupal\services_api\Service\ServiceRepositoryInterface']
+    # tags:
+    #   - { name: controller.service_arguments }

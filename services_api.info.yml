@@ -1,0 +1,7 @@
+name: "Services API"
+type: module
+description: "Provides a RESTful API for services."
+core_version_requirement: ^11
+package: Custom
+dependencies:
+  - drupal:serialization

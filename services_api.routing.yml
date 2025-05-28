@@ -1,0 +1,8 @@
+services_api.list:
+  path: "/services"
+  defaults:
+    _controller: '\Drupal\services_api\Controller\ServicesApiController::list'
+    _format: "json"
+  requirements:
+    _permission: "access content"
+    # _access: "TRUE"
